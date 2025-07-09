@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkla_doc_site=self.webpackChunkla_doc_site||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/launch-accelerator-doc/blog","blogTitle":"Blog","authorsListPath":"/launch-accelerator-doc/blog/authors"}')}}]);

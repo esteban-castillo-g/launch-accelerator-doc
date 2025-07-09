@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkla_doc_site=self.webpackChunkla_doc_site||[]).push([[6158],{1673:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/launch-accelerator-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
