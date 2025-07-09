@@ -1,0 +1,102 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: #1c1e21;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #606770;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1c1e21;
+}
+
+.navigationButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.navButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #f7f8fc;
+  color: #1c1e21 !important;
+  border: 1px solid #e3e6ea;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.navButton:hover {
+  background-color: #606770;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(96, 103, 112, 0.15);
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .navigationButtons {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+  
+  .logoContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    height: 32px;
+  }
+}

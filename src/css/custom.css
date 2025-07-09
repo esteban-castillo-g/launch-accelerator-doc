@@ -1,0 +1,172 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #606770;
+  --ifm-color-primary-dark: #545862;
+  --ifm-color-primary-darker: #4e5258;
+  --ifm-color-primary-darkest: #404449;
+  --ifm-color-primary-light: #6c757e;
+  --ifm-color-primary-lighter: #72818a;
+  --ifm-color-primary-lightest: #8a9ba8;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Override content colors to match SAT website */
+  --ifm-color-content: #1c1e21;
+  --ifm-color-content-secondary: #606770;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #8a9ba8;
+  --ifm-color-primary-dark: #7a8b98;
+  --ifm-color-primary-darker: #72818a;
+  --ifm-color-primary-darkest: #606770;
+  --ifm-color-primary-light: #9aabb8;
+  --ifm-color-primary-lighter: #a8b9c6;
+  --ifm-color-primary-lightest: #c4d5e2;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Professional theme enhancements */
+.navbar__brand {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.navbar__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hero--primary {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+  color: white;
+}
+
+.hero--primary .hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero--primary .hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.button--secondary {
+  background-color: white;
+  color: var(--ifm-color-primary);
+  border: 2px solid white;
+}
+
+.button--secondary:hover {
+  background-color: #f8fafc;
+  border-color: #f8fafc;
+}
+
+.button--outline {
+  border: 2px solid white;
+  color: white;
+}
+
+.button--outline:hover {
+  background-color: white;
+  color: var(--ifm-color-primary);
+}
+
+/* Status badges and indicators */
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.status-badge--success {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-badge--warning {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.status-badge--error {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.status-badge--info {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #1e3a8a;
+}
+
+.footer__title {
+  color: white;
+  font-weight: 700;
+}
+
+.footer__item {
+  color: #e5e7eb;
+}
+
+.footer__item:hover {
+  color: white;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .hero--primary .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero--primary .hero__subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .navbar__title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Code block styling */
+.prism-code {
+  border-radius: 8px;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
