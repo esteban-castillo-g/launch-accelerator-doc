@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://jestebancastillo16.github.io', // Replace with your GitHub username
+  url: 'https://esteban-castillo-g.github.io', // Replace with your GitHub username
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/launch-accelerator-doc/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jestebancastillo16', // Usually your GitHub org/user name.
+  organizationName: 'esteban-castillo-g', // Usually your GitHub org/user name.
   projectName: 'launch-accelerator-doc', // Usually your repo name.
 
   onBrokenLinks: 'throw',
